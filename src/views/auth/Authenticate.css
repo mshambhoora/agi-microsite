@@ -1,0 +1,47 @@
+body,
+#auth {
+	/*background-color: #232f3e !important;*/
+	height: 100vh;
+	background-image: url("/assets/images/bg-vision_blue-gradient.webp");
+}
+
+#auth .input-group-prepend .input-group-text {
+	border: 0;
+	border-bottom: 1px solid #ced4da;
+	border-radius: 0;
+	background-color: transparent;
+}
+
+#auth .form-control {
+	border: 0;
+	border-bottom: 1px solid #ced4da;
+	border-radius: 0;
+	color: #000;
+}
+
+#auth .form-control::placeholder {
+	/* Chrome, Firefox, Opera, Safari 10.1+ */
+	color: #ced4da;
+	opacity: 1; /* Firefox */
+}
+
+#auth .form-control:focus {
+	box-shadow: none;
+}
+
+.color-red {
+    padding: 0;
+    margin: 0;
+}
+
+.toast {
+	background-color: white;
+	opacity: 1;
+}
+
+.btn-link:hover {
+	color: #be1e2c;
+	text-decoration:none;
+	font-family: FoundersGroteskRegular, Helvetica, Arial, sans-serif;
+	font-weight: 700;
+}

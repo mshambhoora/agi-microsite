@@ -1,0 +1,345 @@
+/******************************************************
+ * CSS overrides
+*******************************************************/
+
+@font-face {
+	font-family: SalesforceSansBold;
+	src: local("SalesforceSansBold"),
+		url(//c1.sfdcstatic.com/etc/clientlibs/sfdc-aem-master/clientlibs_base/fonts/SalesforceSans-Bold.woff2)
+			format("woff2"),
+		url(//c1.sfdcstatic.com/etc/clientlibs/sfdc-aem-master/clientlibs_base/fonts/SalesforceSans-Bold.woff)
+			format("woff"),
+		url(//c1.sfdcstatic.com/etc/clientlibs/sfdc-aem-master/clientlibs_base/fonts/SalesforceSans-Bold.ttf)
+			format("truetype"),
+		url(//c1.sfdcstatic.com/etc/clientlibs/sfdc-aem-master/clientlibs_base/fonts/SalesforceSans-Bold.eot?#iefix)
+			format("embedded-opentype"),
+		url(//c1.sfdcstatic.com/etc/clientlibs/sfdc-aem-master/clientlibs_base/fonts/SalesforceSans-Bold.svg#SalesforceSansBold)
+			format("svg");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: SalesforceSansBoldItalic;
+	src: local("SalesforceSansBoldItalic"),
+		url(//c1.sfdcstatic.com/etc/clientlibs/sfdc-aem-master/clientlibs_base/fonts/SalesforceSans-BoldItalic.woff2)
+			format("woff2"),
+		url(//c1.sfdcstatic.com/etc/clientlibs/sfdc-aem-master/clientlibs_base/fonts/SalesforceSans-BoldItalic.woff)
+			format("woff"),
+		url(//c1.sfdcstatic.com/etc/clientlibs/sfdc-aem-master/clientlibs_base/fonts/SalesforceSans-BoldItalic.ttf)
+			format("truetype"),
+		url(//c1.sfdcstatic.com/etc/clientlibs/sfdc-aem-master/clientlibs_base/fonts/SalesforceSans-BoldItalic.eot?#iefix)
+			format("embedded-opentype"),
+		url(//c1.sfdcstatic.com/etc/clientlibs/sfdc-aem-master/clientlibs_base/fonts/SalesforceSans-BoldItalic.svg#SalesforceSansBoldItalic)
+			format("svg");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: SalesforceSansItalic;
+	src: local("SalesforceSansItalic"),
+		url(//c1.sfdcstatic.com/etc/clientlibs/sfdc-aem-master/clientlibs_base/fonts/SalesforceSans-Italic.woff2)
+			format("woff2"),
+		url(//c1.sfdcstatic.com/etc/clientlibs/sfdc-aem-master/clientlibs_base/fonts/SalesforceSans-Italic.woff)
+			format("woff"),
+		url(//c1.sfdcstatic.com/etc/clientlibs/sfdc-aem-master/clientlibs_base/fonts/SalesforceSans-Italic.ttf)
+			format("truetype"),
+		url(//c1.sfdcstatic.com/etc/clientlibs/sfdc-aem-master/clientlibs_base/fonts/SalesforceSans-Italic.eot?#iefix)
+			format("embedded-opentype"),
+		url(//c1.sfdcstatic.com/etc/clientlibs/sfdc-aem-master/clientlibs_base/fonts/SalesforceSans-Italic.svg#SalesforceSansItalic)
+			format("svg");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: SalesforceSansLight;
+	src: local("SalesforceSansLight"),
+		url(//c1.sfdcstatic.com/etc/clientlibs/sfdc-aem-master/clientlibs_base/fonts/SalesforceSans-Light.woff2)
+			format("woff2"),
+		url(//c1.sfdcstatic.com/etc/clientlibs/sfdc-aem-master/clientlibs_base/fonts/SalesforceSans-Light.woff)
+			format("woff"),
+		url(//c1.sfdcstatic.com/etc/clientlibs/sfdc-aem-master/clientlibs_base/fonts/SalesforceSans-Light.ttf)
+			format("truetype"),
+		url(//c1.sfdcstatic.com/etc/clientlibs/sfdc-aem-master/clientlibs_base/fonts/SalesforceSans-Light.eot?#iefix)
+			format("embedded-opentype"),
+		url(//c1.sfdcstatic.com/etc/clientlibs/sfdc-aem-master/clientlibs_base/fonts/SalesforceSans-Light.svg#SalesforceSansLight)
+			format("svg");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: SalesforceSansLightItalic;
+	src: local("SalesforceSansLightItalic"),
+		url(//c1.sfdcstatic.com/etc/clientlibs/sfdc-aem-master/clientlibs_base/fonts/SalesforceSans-LightItalic.woff2)
+			format("woff2"),
+		url(//c1.sfdcstatic.com/etc/clientlibs/sfdc-aem-master/clientlibs_base/fonts/SalesforceSans-LightItalic.woff)
+			format("woff"),
+		url(//c1.sfdcstatic.com/etc/clientlibs/sfdc-aem-master/clientlibs_base/fonts/SalesforceSans-LightItalic.ttf)
+			format("truetype"),
+		url(//c1.sfdcstatic.com/etc/clientlibs/sfdc-aem-master/clientlibs_base/fonts/SalesforceSans-LightItalic.eot?#iefix)
+			format("embedded-opentype"),
+		url(//c1.sfdcstatic.com/etc/clientlibs/sfdc-aem-master/clientlibs_base/fonts/SalesforceSans-LightItalic.svg#SalesforceSansLightItalic)
+			format("svg");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: SalesforceSansRegular;
+	src: local("SalesforceSansRegular"),
+		url(//c1.sfdcstatic.com/etc/clientlibs/sfdc-aem-master/clientlibs_base/fonts/SalesforceSans-Regular.woff2)
+			format("woff2"),
+		url(//c1.sfdcstatic.com/etc/clientlibs/sfdc-aem-master/clientlibs_base/fonts/SalesforceSans-Regular.woff)
+			format("woff"),
+		url(//c1.sfdcstatic.com/etc/clientlibs/sfdc-aem-master/clientlibs_base/fonts/SalesforceSans-Regular.ttf)
+			format("truetype"),
+		url(//c1.sfdcstatic.com/etc/clientlibs/sfdc-aem-master/clientlibs_base/fonts/SalesforceSans-Regular.eot?#iefix)
+			format("embedded-opentype"),
+		url(//c1.sfdcstatic.com/etc/clientlibs/sfdc-aem-master/clientlibs_base/fonts/SalesforceSans-Regular.svg#SalesforceSansRegular)
+			format("svg");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: SalesforceSansThin;
+	src: local("SalesforceSansThin"),
+		url(//c1.sfdcstatic.com/etc/clientlibs/sfdc-aem-master/clientlibs_base/fonts/SalesforceSans-Thin.woff2)
+			format("woff2"),
+		url(//c1.sfdcstatic.com/etc/clientlibs/sfdc-aem-master/clientlibs_base/fonts/SalesforceSans-Thin.woff)
+			format("woff"),
+		url(//c1.sfdcstatic.com/etc/clientlibs/sfdc-aem-master/clientlibs_base/fonts/SalesforceSans-Thin.ttf)
+			format("truetype"),
+		url(//c1.sfdcstatic.com/etc/clientlibs/sfdc-aem-master/clientlibs_base/fonts/SalesforceSans-Thin.eot?#iefix)
+			format("embedded-opentype"),
+		url(//c1.sfdcstatic.com/etc/clientlibs/sfdc-aem-master/clientlibs_base/fonts/SalesforceSans-Thin.svg#SalesforceSansThin)
+			format("svg");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: SalesforceSansThinItalic;
+	src: local("SalesforceSansThinItalic"),
+		url(//c1.sfdcstatic.com/etc/clientlibs/sfdc-aem-master/clientlibs_base/fonts/SalesforceSans-ThinItalic.woff2)
+			format("woff2"),
+		url(//c1.sfdcstatic.com/etc/clientlibs/sfdc-aem-master/clientlibs_base/fonts/SalesforceSans-ThinItalic.woff)
+			format("woff"),
+		url(//c1.sfdcstatic.com/etc/clientlibs/sfdc-aem-master/clientlibs_base/fonts/SalesforceSans-ThinItalic.ttf)
+			format("truetype"),
+		url(//c1.sfdcstatic.com/etc/clientlibs/sfdc-aem-master/clientlibs_base/fonts/SalesforceSans-ThinItalic.eot?#iefix)
+			format("embedded-opentype"),
+		url(//c1.sfdcstatic.com/etc/clientlibs/sfdc-aem-master/clientlibs_base/fonts/SalesforceSans-ThinItalic.svg#SalesforceSansThinItalic)
+			format("svg");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: FoundersGroteskRegular;
+	src: local("FoundersGroteskRegular"),
+		url(/public/assets/fonts/FoundersGroteskRegular.ttf)
+			format("truetype");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: FoundersGrotesk-Bold;
+	src: local("FoundersGrotesk-Bold"),
+		url(/public/assets/fonts/FoundersGrotesk-Bold.ttf)
+			format("truetype");
+	font-weight: 800;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+    font-family: Freehand521;
+    src: local("FoundersGrotesk-Bold"),
+		url(/public/assets/fonts/Freehand521.ttf)
+			format("truetype");
+    font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+.founders-grotesk-regular {
+	font-family: FoundersGroteskRegular, Helvetica, Arial, sans-serif !important;
+}
+
+.founders-grotesk-bold {
+	font-family: FoundersGrotesk-Bold, Helvetica, Arial, sans-serif !important;
+}
+
+.salesforce-sans-bold {
+	font-family: SalesforceSansBold, Helvetica, Arial, sans-serif !important;
+}
+
+.salesforce-sans-bolditalic {
+	font-family: SalesforceSansBoldItalic, Helvetica, Arial, sans-serif !important;
+}
+
+.salesforce-sans-italic {
+	font-family: SalesforceSansItalic, Helvetica, Arial, sans-serif !important;
+}
+
+.salesforce-sans-light {
+	font-family: SalesforceSansLight, Helvetica, Arial, sans-serif !important;
+}
+
+.salesforce-sans-regular {
+	font-family: SalesforceSansRegular, Helvetica, Arial, sans-serif !important;
+}
+
+.salesforce-sans-thin {
+	font-family: SalesforceSansLight, Helvetica, Arial, sans-serif !important;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: FoundersGroteskRegular,Helvetica, Arial, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: FoundersGroteskRegular,Helvetica, Arial, sans-serif;
+	font-weight: 700;
+}
+
+.text-darkblue {
+	color: #005695;
+}
+
+.bg-darkblue {
+	background-color: #005695;
+}
+
+.text-darkgrey {
+	color:#232F3E
+}
+
+.text-red {
+	color: #F01427;
+}
+
+.text-sf {
+	color: #03A1E1;
+}
+.text-lightblue {
+	color: #1999CE;
+}
+
+.text-orange {
+	color: #ff9900;
+}
+
+.text-teal {
+	color: #15B6C9;
+}
+
+.text-grey {
+	color: #D5DBDB;
+}
+
+.text-gold {
+	color: #BAA88D;
+}
+
+.text-theme {
+	color: #F01428;
+	text-decoration:none;
+	font-family: FoundersGroteskRegular, Helvetica, Arial, sans-serif;
+	margin-top: 0 !important;
+}
+
+.text-theme :hover{
+	color: #be1e2c;
+	text-decoration:none;
+	font-family: FoundersGroteskRegular, Helvetica, Arial, sans-serif;
+}
+
+.bg-lightblue {
+	background-color: #1999CE;
+}
+
+.bg-white {
+	background-color: #fff;
+}
+
+.bg-light {
+	background-color: #f8f9fa;
+}
+
+.bg-lightgrey {
+	background-color: #eaeded;
+}
+
+.bg-orange {
+	background-color: #ff9900;
+}
+
+.bg-teal {
+	background-color: #15B6C9;
+}
+
+.text-smaller {
+	font-size: .75em;
+}
+
+/******************************************************
+ * BUTTONS
+*******************************************************/
+.btn-primary {
+	background-color: #F01428;
+	border-color: #F01428;
+}
+
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus {
+	background-color: #F01428;
+	border-color: #F01428;
+	opacity: 0.8;
+	transition: all 0.1s ease;
+	box-shadow: none;
+}
+
+.btn-secondary {
+	background-color: #232F3E;
+	border-color: #232F3E;
+}
+
+.btn-secondary:hover,
+.btn-secondary:active,
+.btn-secondary:focus {
+	background-color: #232F3E;
+	border-color: #232F3E;
+	opacity: 0.8;
+	transition: all 0.1s ease;
+	box-shadow: none;
+}
+
+p > strong {
+	font-family: FoundersGroteskRegular, Helvetica, Arial, sans-serif;
+	font-weight: 700;
+}

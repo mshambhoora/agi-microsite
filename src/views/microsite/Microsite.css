@@ -1,0 +1,351 @@
+/******************************************************
+ * MAIN CONTENT
+*******************************************************/
+body {
+
+}
+
+#microsite {
+  background-color: transparent !important;
+  background-image: url(/assets/images/Cover_image_Air_canada.webp) !important;
+  background-size: contain;
+}
+
+.ReactModal__Overlay {
+	z-index: 9999 !important;
+  }
+
+.vertical-center {
+	display: flex;
+	align-items: center;
+}
+
+.vidyard-player-container {
+	border-radius: 25px;
+}
+
+#hero .jumbotron h1 {
+	font-family: FoundersGrotesk-Bold, Helvetica, Arial, sans-serif;
+	font-weight: 800;
+	font-size: 3rem;
+}
+
+#hero .lead {
+	font-size: 1.3rem;
+}
+
+#hero .hero-left {
+  background-color: transparent;
+  padding: 2rem 4rem;
+}
+
+#hero h1 .hero-emphasis {
+	font-family: Freehand521, Calibre, SalesforceSansBold, sans-serif !important;
+	font-weight: 400;
+	font-size: 3.4rem;
+}
+
+
+.jumbotron {
+	background:#ffffff80;
+
+}
+
+.jumbotron ul li,
+.jumbotron p {
+	font-family: FoundersGroteskRegular, Helvetica, Arial, sans-serif;
+}
+
+.jumbotron ul li {
+	margin: 1.25rem 0;
+}
+
+.jumbotron b {
+	font-family: FoundersGroteskRegular, Helvetica, Arial, sans-serif;
+	font-weight: 700;
+}
+
+.lead {
+	margin-bottom: 0;
+}
+
+#quotes h2 {
+	font-family: FoundersGroteskRegular, Helvetica, Arial, sans-serif !important;
+	font-weight: 300;
+}
+
+.icon-type {
+	width: 18px;
+}
+
+#solution-demo .kpi {
+    border: none;
+}
+
+#solution-demo .persona {
+    text-align: left;
+}
+
+#experience-demos h3 {
+	font-size: 2.8rem;
+	font-weight: 200;
+	line-height: 1;
+	text-shadow: 0px 0px 8px rgba(25,25,25,.25);
+  }
+  
+  #experience-demos h1 {
+	font-size: 4rem;
+	font-weight: 700;
+	line-height: 1;
+	text-shadow: 0px 0px 8px rgba(25,25,25,.2);
+  }
+  
+  #experience-demos .lead {
+	  font-size: 1.4rem;
+	  font-family: Calibre, SalesforceSansBold, serif;
+	font-weight: 300;
+	font-style: italic;
+	text-shadow: 0px 0px 8px rgba(25,25,25,.45);
+  }
+  
+  #experience-demos .bg-persona1,
+  #experience-demos .bg-persona2,
+  #experience-demos .bg-persona3 {
+	  background-image: none;
+  }
+  
+  #experience-demos .persona {
+	max-width: 200px;
+  }
+  
+  #experience-demos .persona-alt {
+	  max-width: 80px;
+  }
+  
+  #experience-demos .persona_left {
+	text-align: center;
+  }
+  
+  #experience-demos .persona_right {
+	border: 0;
+	text-align: center;
+  }
+
+  #customer-360 .customer-360_right h1 {
+	font-size: 2.6rem;
+	font-weight: 600;
+	line-height: 1;
+  }
+  
+  #customer-360 {
+	background-image: url(/assets/images/cover-ac.webp);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+  }
+  
+  #customer-360 .customer-360_left {
+	  /* background-image: url(/assets/images/360-left.png);
+	  background-size: cover;
+	  background-repeat: no-repeat; */
+  }
+  
+  #customer-360 .customer-360_right {
+	  /*background-image: url(/assets/images/360-right.png);
+	  background-size: cover;
+	  background-repeat: no-repeat;*/
+  }
+  
+  #customer-360 .customer-360_right h1 {
+	text-align: center;
+  }
+  
+  #customer-360 .customer-360_left .wheel-img {
+  
+  }
+  
+  .embed-container { 
+	  position: relative; 
+	  /*padding-bottom: 56.25%;*/
+	  padding-bottom: 44.93%;
+	  height: 0; 
+	  overflow: hidden; 
+	  max-width: 100%; 
+  } 
+  
+  .embed-container iframe, 
+  .embed-container object, 
+  .embed-container embed { 
+	  position: absolute; 
+	  top: 0; 
+	  left: 0; 
+	  width: 100%; 
+	  height: 100%; 
+	  border: 0;
+  }
+  
+  #vidyard-overlay-wrapper {
+	  z-index: 9999;
+  }
+
+  .header-highlight_1 {
+	background-image: url(/assets/images/header-highlight.png);
+  	background-position: 50% 90%;
+	background-size: 272px;
+	background-repeat: no-repeat;
+}
+
+.tile_container {
+	position: relative;
+	min-height: 560px;
+	z-index: 1;
+	border: 0;
+	border-radius: 0;
+	flex: 1;
+  }
+  
+  .tile-container_1 {
+	background-image: url(/assets/images/panel1.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: left bottom;
+  }
+  
+  .tile-container_2 {
+	background-image: url(/assets/images/panel2.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: left bottom;
+  }
+  
+  .tile-container_3 {
+	background-image: url(/assets/images/panel3.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: left bottom;
+  }
+  
+  .tile-overlay {
+	background: rgba(240, 20, 39, 0.65);
+	font-size: 1.7rem;
+	padding: 2rem;
+	color: #fff;
+	line-height: 1.35;
+	font-weight: 400;
+	text-align: left;
+	display: none;
+	opacity: 0;
+	flex: 1;
+  }
+  
+  .active-tile > .tile-overlay {
+	display: block !important;
+	opacity: 1 !important;
+  }
+  
+  .active-tile.hover {
+	transition: all 2s ease-in-out;
+  }
+
+/******************************************************
+ * JARALLAX
+*******************************************************/
+.jarallax {
+	position: relative;
+	z-index: 0;
+}
+
+.jarallax > .jarallax-img {
+	position: absolute;
+	object-fit: cover;
+	/* support for plugin https://github.com/bfred-it/object-fit-images */
+	font-family: "object-fit: cover;";
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+}
+
+/******************************************************
+ * MEDIA QUERIES
+*******************************************************/
+
+@media (min-width: 992px) {
+	#solution-demo .kpi {
+        border-left: 1px solid #fff !important;
+    }
+
+    #solution-demo .persona {
+        text-align: right !important;
+    }
+}
+
+@media (min-width: 576px) {
+	#intro .jumbotron {
+		padding: 8px 0;
+	}
+	#titles .jumbotron {
+		padding: 8px 0;
+	}
+}
+
+
+@media (min-width: 1200px) {
+    #resources .card-columns {
+        column-count: 2;
+	}
+}
+
+/******************************************************
+ * HEADER / NAVBAR
+*******************************************************/
+.navbar {
+	font-family: SalesforceSansRegular, Arial, Helvetica, sans-serif;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	-webkit-transition: height 0.4s ease, opacity 0.3s ease;
+	-o-transition: height 0.4s ease, opacity 0.3s ease;
+	transition: height 0.4s ease, opacity 0.3s ease;
+}
+
+.navbar-brand img {
+	height: 54px;
+}
+
+@media (min-width: 576px) { 
+	.navbar-brand img {
+		height: 60px;
+	}
+
+	.navbar-expand-lg .navbar-nav .nav-link {
+		padding-right: 1.6rem;
+		padding-left: 1.6rem;
+		font-weight: 600;
+		font-size: .9rem;
+	}
+}
+
+/******************************************************
+ * FOOTER
+*******************************************************/
+#footer {
+	background: url("/assets/images/bg-footer_brand_mascots.jpg") repeat-x
+		center top;
+	background-size: contain;
+	
+}
+
+#footer .salesforcedisclaimer {
+	background: url("/assets/images/logo-salesforce.svg") no-repeat center
+		center;
+	background-size: contain;
+	display: inline-block;
+	height: 37px;
+	position: relative;
+	top: 16px;
+	width: 60px;
+}
+
+#footer {
+	background-color: #232F3E;
+}
