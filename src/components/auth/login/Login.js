@@ -42,12 +42,12 @@ export default class LoginForm extends Component {
 					<Card.Body className="text-center">
 						<Image
 							alt="Co-branded Logo"
-							src="assets/images/combo-logo.png"
+							src="assets/images/agi-salesforce.svg"
 							id="logo"
 							className="img-fluid mx-auto d-block"
 							loading="lazy"
 							style={{ 
-								'maxWidth' : '100%',
+								'maxWidth' : '80%',
 								'padding' : '0'
 						 		}}
 						></Image>

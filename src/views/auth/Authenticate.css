@@ -2,7 +2,9 @@ body,
 #auth {
 	/*background-color: #232f3e !important;*/
 	height: 100vh;
-	background-image: url("/assets/images/bg-vision_blue-gradient.webp");
+	background-image: url("/assets/images/about-us-desktop.jpg");
+	background-size: cover;
+	background-position: right;
 }
 
 #auth .input-group-prepend .input-group-text {
@@ -40,7 +42,7 @@ body,
 }
 
 .btn-link:hover {
-	color: #be1e2c;
+	color: #043a1e;
 	text-decoration:none;
 	font-family: FoundersGroteskRegular, Helvetica, Arial, sans-serif;
 	font-weight: 700;

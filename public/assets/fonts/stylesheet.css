@@ -1,5 +1,214 @@
 @font-face {
-    font-family: 'Freehand521';
-    src: url('Freehand521.ttf') format('truetype');
-    font-weight: 500;
+font-family: 'Univers LT Extended Oblique';
+font-style: normal;
+font-weight: normal;
+src: local('Univers LT Extended Oblique'), url('Univers LT 53 Extended Oblique.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Univers LT Extended';
+font-style: normal;
+font-weight: normal;
+src: local('Univers LT Extended'), url('Univers LT 53 Extended.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Univers LT Oblique';
+font-style: normal;
+font-weight: normal;
+src: local('Univers LT Oblique'), url('Univers LT 55 Oblique.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Univers LT Roman';
+font-style: normal;
+font-weight: normal;
+src: local('Univers LT Roman'), url('Univers LT 55 Roman.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Univers LT Condensed Oblique';
+font-style: normal;
+font-weight: normal;
+src: local('Univers LT Condensed Oblique'), url('Univers LT 57 Condensed Oblique.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Univers LT Condensed';
+font-style: normal;
+font-weight: normal;
+src: local('Univers LT Condensed'), url('Univers LT 57 Condensed.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Univers LT Ultra Condensed';
+font-style: normal;
+font-weight: normal;
+src: local('Univers LT Ultra Condensed'), url('Univers LT 59 Ultra Condensed.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Univers LT Thin Ultra Condensed';
+font-style: normal;
+font-weight: normal;
+src: local('Univers LT Thin Ultra Condensed'), url('Univers LT 39 Thin Ultra Condensed.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Univers LT Light Oblique';
+font-style: normal;
+font-weight: normal;
+src: local('Univers LT Light Oblique'), url('Univers LT 45 Light Oblique.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Univers LT Light';
+font-style: normal;
+font-weight: normal;
+src: local('Univers LT Light'), url('Univers LT 45 Light.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Univers LT Light Condensed Oblique';
+font-style: normal;
+font-weight: normal;
+src: local('Univers LT Light Condensed Oblique'), url('Univers LT 47 Light Condensed Oblique.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Univers LT Light Condensed';
+font-style: normal;
+font-weight: normal;
+src: local('Univers LT Light Condensed'), url('Univers LT 47 Light Condensed.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Univers LT Light Ultra Condensed';
+font-style: normal;
+font-weight: normal;
+src: local('Univers LT Light Ultra Condensed'), url('Univers LT 49 Light Ultra Condensed.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Univers LT Bold Extended Oblique';
+font-style: normal;
+font-weight: normal;
+src: local('Univers LT Bold Extended Oblique'), url('Univers LT 63 Bold Extended Oblique.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Univers LT Bold Extended';
+font-style: normal;
+font-weight: normal;
+src: local('Univers LT Bold Extended'), url('Univers LT 63 Bold Extended.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Univers LT Bold Oblique';
+font-style: normal;
+font-weight: normal;
+src: local('Univers LT Bold Oblique'), url('Univers LT 65 Bold Oblique.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Univers LT Bold';
+font-style: normal;
+font-weight: normal;
+src: local('Univers LT Bold'), url('Univers LT 65 Bold.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Univers LT Bold Condensed Oblique';
+font-style: normal;
+font-weight: normal;
+src: local('Univers LT Bold Condensed Oblique'), url('Univers LT 67 Bold Condensed Oblique.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Univers LT Bold Condensed';
+font-style: normal;
+font-weight: normal;
+src: local('Univers LT Bold Condensed'), url('Univers LT 67 Bold Condensed.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Univers LT Black Extended Oblique';
+font-style: normal;
+font-weight: normal;
+src: local('Univers LT Black Extended Oblique'), url('Univers LT 73 Black Extended Oblique.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Univers LT Black Extended';
+font-style: normal;
+font-weight: normal;
+src: local('Univers LT Black Extended'), url('Univers LT 73 Black Extended.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Univers LT Black Oblique';
+font-style: normal;
+font-weight: normal;
+src: local('Univers LT Black Oblique'), url('Univers LT 75 Black Oblique.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Univers LT Black';
+font-style: normal;
+font-weight: normal;
+src: local('Univers LT Black'), url('Univers LT 75 Black.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Univers LT Extra Black Oblique';
+font-style: normal;
+font-weight: normal;
+src: local('Univers LT Extra Black Oblique'), url('Univers LT 85 Extra Black Oblique.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Univers LT Extra Black';
+font-style: normal;
+font-weight: normal;
+src: local('Univers LT Extra Black'), url('Univers LT 85 Extra Black.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Univers LT Extra Black Extended Oblique';
+font-style: normal;
+font-weight: normal;
+src: local('Univers LT Extra Black Extended Oblique'), url('Univers LT 93 Extra Black Extended Oblique.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Univers LT Extra Black Extended';
+font-style: normal;
+font-weight: normal;
+src: local('Univers LT Extra Black Extended'), url('Univers LT 93 Extra Black Extended.woff') format('woff');
 }
