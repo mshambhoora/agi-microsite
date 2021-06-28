@@ -44,6 +44,5 @@ body,
 .btn-link:hover {
 	color: #043a1e;
 	text-decoration:none;
-	font-family: FoundersGroteskRegular, Helvetica, Arial, sans-serif;
-	font-weight: 700;
+	font-weight: 900;
 }
