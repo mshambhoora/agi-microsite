@@ -1,0 +1,17 @@
+/******************************************************
+ * FOOTER
+*******************************************************/
+#footer .salesforcedisclaimer {
+	background: url("/assets/images/logo-salesforce.svg") no-repeat center
+		center;
+	background-size: contain;
+	display: inline-block;
+	height: 37px;
+	position: relative;
+	top: 16px;
+	width: 60px;
+}
+
+#footer {
+	background-color: #026231;
+}
