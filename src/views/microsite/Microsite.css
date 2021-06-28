@@ -23,6 +23,8 @@
 	border-radius: 0;
 }
 
+#vidyard-popbox { width: fit-content; }
+
 #hero .jumbotron h1 {
 	font-weight: 800;
 	font-size: 3rem;
