@@ -699,7 +699,7 @@ export default class Microsite extends Component {
                 </Row>
 
 					{/* RESOURCE CENTER */}
-					<Row id="resources">
+					{/* <Row id="resources">
 						<Col className="bg-white py-5">
 							<Container>
 								<Row>
@@ -967,7 +967,7 @@ export default class Microsite extends Component {
 								</CardColumns>
 							</Container>
 						</Col>
-					</Row>
+					</Row> */}
 							
 
 				</Container>
