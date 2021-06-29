@@ -35,7 +35,7 @@ import {
     MobileView,
   } from "react-device-detect";
 import 'react-image-lightbox/style.css';
-import WHEEL from '../../images/AGI-Wheel.png';
+import WHEEL from '../../images/AGI-Wheel-2.png';
 const images = [WHEEL];
 
 // jarallaxVideo();
