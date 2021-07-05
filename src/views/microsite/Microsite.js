@@ -446,7 +446,7 @@ export default class Microsite extends Component {
                                                             {/* <Image
                                                                 style={{maxWidth: '100%'}}
                                                                 className="vidyard-player-embed"
-                                                                src="https://play.vidyard.com/LwD3Mhc5FcC8tbWzXfjRNb.jpg"
+                                                                src="https://play.vidyard.com/H8tjTKZaUec9YQRkvEKRZp.jpg"
                                                                 data-uuid="LwD3Mhc5FcC8tbWzXfjRNb"
                                                                 data-v="4"
                                                                 data-type="lightbox"
@@ -510,7 +510,7 @@ export default class Microsite extends Component {
                                                             {/* <Image
                                                                 style={{maxWidth: '100%'}}
                                                                 className="vidyard-player-embed"
-                                                                src="https://play.vidyard.com/LwD3Mhc5FcC8tbWzXfjRNb.jpg"
+                                                                src="https://play.vidyard.com/qhY2ZM21JF6G9GgsobBWfA.jpg"
                                                                 data-uuid="LwD3Mhc5FcC8tbWzXfjRNb"
                                                                 data-v="4"
                                                                 data-type="lightbox"
@@ -525,7 +525,7 @@ export default class Microsite extends Component {
                                                             {/* <Image
                                                                 style={{maxWidth: '100%'}}
                                                                 className="vidyard-player-embed"
-                                                                src="https://play.vidyard.com/LwD3Mhc5FcC8tbWzXfjRNb.jpg"
+                                                                src="https://play.vidyard.com/HD7zVpKRHGKVeDeaS5175o.jpg"
                                                                 data-uuid="LwD3Mhc5FcC8tbWzXfjRNb"
                                                                 data-v="4"
                                                                 data-type="lightbox"
@@ -658,7 +658,7 @@ export default class Microsite extends Component {
                                                             {/* <Image
                                                                 style={{maxWidth: '100%'}}
                                                                 className="vidyard-player-embed"
-                                                                src="https://play.vidyard.com/LwD3Mhc5FcC8tbWzXfjRNb.jpg"
+                                                                src="https://play.vidyard.com/Uus9457wk1ZhoB5ahPescX.jpg"
                                                                 data-uuid="LwD3Mhc5FcC8tbWzXfjRNb"
                                                                 data-v="4"
                                                                 data-type="lightbox"
@@ -673,7 +673,7 @@ export default class Microsite extends Component {
                                                             {/* <Image
                                                                 style={{maxWidth: '100%'}}
                                                                 className="vidyard-player-embed"
-                                                                src="https://play.vidyard.com/LwD3Mhc5FcC8tbWzXfjRNb.jpg"
+                                                                src="https://play.vidyard.com/rEM35LQpi9UdR6EmNDEaNd.jpg"
                                                                 data-uuid="LwD3Mhc5FcC8tbWzXfjRNb"
                                                                 data-v="4"
                                                                 data-type="lightbox"
